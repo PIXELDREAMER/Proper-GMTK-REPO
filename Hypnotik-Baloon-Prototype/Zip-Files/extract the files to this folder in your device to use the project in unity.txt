@@ -1,1 +1,0 @@
-extract the files to this folder in your device to use the project in unity
