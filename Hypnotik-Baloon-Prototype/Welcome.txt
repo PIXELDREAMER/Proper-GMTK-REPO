@@ -2,7 +2,7 @@ Hello!
 
 To use the assets from the prototype I've made you need to:
 
-1. Dowload the "assets" zip file and extract it, that will extract the folder onto the dowloads folder of your device.
+1. Dowload the "assets" zip file and extract it, to dowload it go to the file in git and click "raw" that probably is going to dowload it for you otherwise click the other dowload button in git,that will extract the folder onto the dowloads folder of your device.
 
 2. Add it either inside the folder 'assets' in your Unity Project if you have a existing one (remember to rename this dowloadeded assets folder before adding it into Unity as otherwise it's gonna mix the files of my assets folder with yours which could make a mess) or if you have a blank project you can just replace your assets folder with mine (but beware that this could theorically cause issues but you are probably fine).
 
