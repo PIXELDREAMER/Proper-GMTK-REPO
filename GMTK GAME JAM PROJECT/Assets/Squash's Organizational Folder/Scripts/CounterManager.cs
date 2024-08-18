@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Game.Core
 {
-    public class CounterManager : MonoBehaviour
+    public class CounterManager : GenericSingleton<CounterManager>
     {
         public Action<int> OnCounterIncreased;
         private int _currentCount = 0;
@@ -12,9 +12,13 @@ namespace Game.Core
         {
             _currentCount += amount;
         }
-        private void Awake() 
+        protected override void Awake() 
         {
-            _currentCount = 0;
+            base.Awake();
+            if(Instance != null)
+            {
+                _currentCount = 0;
+            }
         }
         
         private void Start() 
