@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DialogueTrigger : MonoBehaviour
+public class DialogueTriggerA : MonoBehaviour
 {
     // This public field declares a variable named 'dialogue' which is of type 'Dialogue'. 
     // This variable will hold a reference to a Dialogue object.

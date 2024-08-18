@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class DialogueManager : MonoBehaviour
+public class DialogueManagerA : MonoBehaviour
 {
 /*
 This script manages dialogue in a game. It holds references to the UI elements that display the dialogue, such as the name of the NPC and the actual dialogue text.

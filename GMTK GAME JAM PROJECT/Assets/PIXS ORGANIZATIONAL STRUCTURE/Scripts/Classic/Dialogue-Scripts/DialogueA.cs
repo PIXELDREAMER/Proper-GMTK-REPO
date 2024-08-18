@@ -4,7 +4,7 @@ using UnityEngine;
 
 
 [System.Serializable]
-public class Dialogue
+public class DialogueA
 {
     // This class represents a dialogue between a character and the player in the game.
     // It contains the name of the Non-Player Character (NPC) that is speaking, and

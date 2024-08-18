@@ -8,9 +8,9 @@ public class NpcDialogueTriggerToAttach : MonoBehaviour
     public GameObject InteractButton;
     public Collider2D NpcdialogueTrigger;
 
-    void OnTriggerEnter2D(Collider2D collider)
+    void OnTriggerEnter2D(Collider2D colliderA)
     {
-        if (collider.CompareTag("Player"))
+        if (colliderA.CompareTag("Player"))
         {
             DialogueManagerObject.SetActive(true);
             InteractButton.SetActive(true);
@@ -22,9 +22,9 @@ public class NpcDialogueTriggerToAttach : MonoBehaviour
         }
     }
 
-    void OnTriggerExit2D(Collider2D collider)
+    void OnTriggerExit2D(Collider2D colliderA)
     {
-        if (collider.CompareTag("Player"))
+        if (colliderA.CompareTag("Player"))
         {
             DialogueManagerObject.SetActive(false);
             
