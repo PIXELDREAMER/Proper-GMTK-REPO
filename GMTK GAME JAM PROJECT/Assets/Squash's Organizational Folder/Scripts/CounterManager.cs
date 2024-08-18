@@ -18,6 +18,7 @@ namespace Game.Core
             if(Instance != null)
             {
                 _currentCount = 0;
+                DontDestroyOnLoad(gameObject);
             }
         }
         
