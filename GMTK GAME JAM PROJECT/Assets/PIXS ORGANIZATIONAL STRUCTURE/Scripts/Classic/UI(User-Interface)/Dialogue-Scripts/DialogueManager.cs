@@ -14,10 +14,9 @@ The sentences variable is a queue that holds all the sentences of a dialogue.
 public TextMeshProUGUI NameText; // UI element to display the name of the NPC
 public TextMeshProUGUI DialogueText; // UI element to display the actual dialogue text
 public Animator animator; // Reference to the animator component, controls the visibility of UI elements
-public Queue <string> sentences; // Queue that holds all the sentences of a dialogue
-
 public GameObject DialogueBoxPanel;
-
+private Queue <string> sentences; // Queue that holds all the sentences of a dialogue
+private Coroutine typeSentenceCoroutine;
 /*
 This is the Start function, it is called before the first frame update.
 In this function, we initialize the sentences queue.
@@ -63,8 +62,11 @@ public void DisplayNextSentence()
     }
 
     string sentence = sentences.Dequeue(); // Getting the next sentence
-    StopAllCoroutines(); // Stop any previous coroutine displaying a sentence
-    StartCoroutine(TypeSentence(sentence)); // Starting a new coroutine to display the sentence
+    if(typeSentenceCoroutine != null)
+    {
+        StopCoroutine(typeSentenceCoroutine);
+    }
+    typeSentenceCoroutine = StartCoroutine(TypeSentence(sentence)); // Starting a new coroutine to display the sentence
     Debug.Log(sentence); // Logging the sentence
 }
 
@@ -82,6 +84,8 @@ IEnumerator TypeSentence (string sentence)
         DialogueText.text += letter; // Adding the letter to the dialogue text
         yield return null; // Waiting for the next frame
     }
+
+    typeSentenceCoroutine = null;
 }
 
 
@@ -94,18 +98,4 @@ public void EndDialogue()
     Debug.Log("End of Conversation "); // Logging the end of the conversation
     DialogueBoxPanel.SetActive(false); // Hiding the dialogue panel
 }
-
-/*
-This is the Update function, it is called once per frame.
-In this function, we don't do anything.
-*/
-
-   
-
-  
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
