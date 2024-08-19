@@ -22,7 +22,7 @@ public class QuestObject : MonoBehaviour
         SetQuestMarker();
     }
 
-    void SetQuestMarker()
+    public void SetQuestMarker()
     {
         if(QuestManager.questManager.CheckCompletedQuest(this))
         {

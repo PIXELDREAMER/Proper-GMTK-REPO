@@ -280,5 +280,16 @@ public void AddQuestItem(string questObjective, int itemAmount )
         // Handle quest updates or other logic here if needed
     }
 
+
+   public void ShowQuestLog(int questID)
+    {
+        for(int i = 0; i < currentQuestList.Count; i++)
+        {
+            if(currentQuestList[i].id == questID)
+            {
+                QuestUIManager.uiManager.ShowQuestLog(currentQuestList[i]);
+            }
+        }
+    }
     // This Coment is to test that GITHUB REPO WOrks
 }
