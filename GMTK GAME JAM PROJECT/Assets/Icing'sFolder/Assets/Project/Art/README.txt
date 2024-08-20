@@ -1,0 +1,1 @@
+Files are organized by size. Arranged in 32 x 32 format
