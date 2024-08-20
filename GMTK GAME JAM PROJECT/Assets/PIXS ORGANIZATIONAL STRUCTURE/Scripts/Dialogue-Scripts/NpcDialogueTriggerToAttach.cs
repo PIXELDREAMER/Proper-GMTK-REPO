@@ -2,37 +2,40 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NpcDialogueTriggerToAttach : MonoBehaviour
+namespace Game
 {
-    public GameObject DialogueManagerObject;
-    public GameObject InteractButton;
-    public Collider2D NpcdialogueTrigger;
-
-    void OnTriggerEnter2D(Collider2D collider)
+    public class NpcDialogueTriggerToAttach : MonoBehaviour
     {
-        if (collider.CompareTag("Player"))
+        public GameObject DialogueManagerObject;
+        public GameObject InteractButton;
+        public Collider2D NpcdialogueTrigger;
+    
+        void OnTriggerEnter2D(Collider2D collider)
         {
-            DialogueManagerObject.SetActive(true);
-            InteractButton.SetActive(true);
-            Debug.Log("Player has entered the NpcdialogueTrigger, tap button to speak with NPC");
+            if (collider.CompareTag("Player"))
+            {
+                DialogueManagerObject.SetActive(true);
+                InteractButton.SetActive(true);
+                Debug.Log("Player has entered the NpcdialogueTrigger, tap button to speak with NPC");
+            }
+            else
+            {
+                Debug.Log("NpcdialogueTrigger is not set right");
+            }
         }
-        else
+    
+        void OnTriggerExit2D(Collider2D collider)
         {
-            Debug.Log("NpcdialogueTrigger is not set right");
-        }
-    }
-
-    void OnTriggerExit2D(Collider2D collider)
-    {
-        if (collider.CompareTag("Player"))
-        {
-            DialogueManagerObject.SetActive(false);
-            
-            Debug.Log("Player has exited the NpcdialogueTrigger");
-        }
-        else
-        {
-            Debug.Log("NpcdialogueTrigger is not set right");
+            if (collider.CompareTag("Player"))
+            {
+                DialogueManagerObject.SetActive(false);
+                
+                Debug.Log("Player has exited the NpcdialogueTrigger");
+            }
+            else
+            {
+                Debug.Log("NpcdialogueTrigger is not set right");
+            }
         }
     }
 }
