@@ -5,8 +5,7 @@ using UnityEngine.UI;
 using TMPro;
 
 public class DialogueManager : MonoBehaviour
-{
-/*
+{/*
 This script manages dialogue in a game. It holds references to the UI elements that display the dialogue, such as the name of the NPC and the actual dialogue text.
 It also holds a reference to the animator component, which controls the UI elements' visibility.
 The sentences variable is a queue that holds all the sentences of a dialogue.
@@ -14,9 +13,12 @@ The sentences variable is a queue that holds all the sentences of a dialogue.
 public TextMeshProUGUI NameText; // UI element to display the name of the NPC
 public TextMeshProUGUI DialogueText; // UI element to display the actual dialogue text
 public Animator animator; // Reference to the animator component, controls the visibility of UI elements
-public GameObject DialogueBoxPanel;
-private Queue <string> sentences; // Queue that holds all the sentences of a dialogue
-private Coroutine typeSentenceCoroutine;
+public Queue <string> sentences; // Queue that holds all the sentences of a dialogue
+
+public int Timer; //This is a timer variale, used to control the time between sentence changes
+//private float LetterTimer; // this is a timer variable that changes the speed of letters of the sentence
+//public GameObject DialogueBoxPanel;
+
 /*
 This is the Start function, it is called before the first frame update.
 In this function, we initialize the sentences queue.
@@ -24,8 +26,10 @@ In this function, we initialize the sentences queue.
 void Start()
 {
     sentences = new Queue<string>(); // Initializing the sentences queue
-    
-}
+    //LetterTimer = Math.Sqrt(ToDouble(Timer));//Setting the letter Timer to root timer
+} 
+
+
 
 /*
 This function starts a new dialogue. It takes a Dialogue object as a parameter, which contains the name of the NPC and all the sentences of the dialogue.
@@ -48,6 +52,8 @@ public void StartDialogue(Dialogue dialogue)
     }
 
     DisplayNextSentence(); // Displaying the first sentence
+    
+
 }
 
 /*
@@ -62,12 +68,10 @@ public void DisplayNextSentence()
     }
 
     string sentence = sentences.Dequeue(); // Getting the next sentence
-    if(typeSentenceCoroutine != null)
-    {
-        StopCoroutine(typeSentenceCoroutine);
-    }
-    typeSentenceCoroutine = StartCoroutine(TypeSentence(sentence)); // Starting a new coroutine to display the sentence
+    StopAllCoroutines(); // Stop any previous coroutine displaying a sentence
+    StartCoroutine(TypeSentence(sentence)); // Starting a new coroutine to display the sentence
     Debug.Log(sentence); // Logging the sentence
+    StartCoroutine(AutomatedSentencePlay(Timer));
 }
 
 /*
@@ -82,10 +86,23 @@ IEnumerator TypeSentence (string sentence)
     foreach(char letter in sentence.ToCharArray())
     {
         DialogueText.text += letter; // Adding the letter to the dialogue text
-        yield return null; // Waiting for the next frame
+        //yield return new WaitForSeconds(LetterTimer); // Waiting for the next frame
+        yield return null;
+    }
+}
+
+//Ths Coroutine Automatically
+ IEnumerator AutomatedSentencePlay(int timer)
+{
+    while(sentences.Count > 0)
+    {
+     yield return new WaitForSeconds(timer);
+
+     DisplayNextSentence();
     }
 
-    typeSentenceCoroutine = null;
+    EndDialogue();
+
 }
 
 
@@ -96,6 +113,20 @@ public void EndDialogue()
 {
     animator.SetBool("isOpen", false); // Hiding the UI elements
     Debug.Log("End of Conversation "); // Logging the end of the conversation
-    DialogueBoxPanel.SetActive(false); // Hiding the dialogue panel
+   // DialogueBoxPanel.SetActive(false); // Hiding the dialogue panel
 }
+
+/*
+This is the Update function, it is called once per frame.
+In this function, we don't do anything.
+*/
+
+   
+
+  
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
 }
