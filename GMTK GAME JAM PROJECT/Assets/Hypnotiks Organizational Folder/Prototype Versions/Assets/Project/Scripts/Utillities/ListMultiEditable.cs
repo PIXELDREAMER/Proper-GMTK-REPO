@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.VersionControl;
 using UnityEngine;
 
 public class ListMultiEditable<T> where T : Component
@@ -15,6 +16,34 @@ public class ListMultiEditable<T> where T : Component
             UpdateList();
             return targetlist;
         }
+
+        set
+        {
+            // First, find items to add and remove
+            var newItems = new HashSet<T>(value);
+            var oldItems = new HashSet<T>(targetlist);
+
+            // Determine what to remove
+            foreach (var item in oldItems)
+            {
+                if (!newItems.Contains(item))
+                {
+                    toRemoveList.Add(item);
+                }
+            }
+
+            // Determine what to add
+            foreach (var item in newItems)
+            {
+                if (!oldItems.Contains(item))
+                {
+                    toAddList.Add(item);
+                }
+            }
+
+            // Perform the updates
+            UpdateList();
+        }
     }
 
     public int Count
@@ -23,6 +52,11 @@ public class ListMultiEditable<T> where T : Component
         {
             UpdateList();
             return targetlist.Count;
+        }
+
+        private set
+        {
+
         }
     }
 
@@ -47,5 +81,10 @@ public class ListMultiEditable<T> where T : Component
     public void Remove(T item)
     {
         toRemoveList.Add(item);
+    }
+
+    public bool IsEmpty()
+    {
+        return TargetList.Count == 0 || TargetList == null;
     }
 }

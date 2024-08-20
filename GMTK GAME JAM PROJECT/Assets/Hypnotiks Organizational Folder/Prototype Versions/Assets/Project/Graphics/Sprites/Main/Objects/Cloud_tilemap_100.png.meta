@@ -1,0 +1,1724 @@
+fileFormatVersion: 2
+guid: ac1f22d717c9e7846af739c304c30857
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 372
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef84f7a296825024c9577bf93758b8cf
+      internalID: 52394784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_1
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 372
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654297ccc95b73d4eba83167f2ff0b75
+      internalID: 417671739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_2
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 372
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 770c2e59ebfd1e944a37f321655a485a
+      internalID: 1734649927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_3
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 372
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5750c4c9c05958b4eaff27b03ecb1d14
+      internalID: 1935196008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_4
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 372
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a2ed2ca8c0a7134abe6958c02b9e565
+      internalID: 867334661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_5
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 372
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 311320caca8030c4c8f948dd10ce0a13
+      internalID: 21871478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_6
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 372
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54eb570855d64b54c85eaa2fda66e968
+      internalID: -599817339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_7
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 372
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732d35a409859ac46b74facd98f0899c
+      internalID: 1440234268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_8
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 372
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef9af6db3a410194290032478307ff81
+      internalID: 1525128399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 328
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8851ae704a08e684c92b0d5c7a6bca72
+      internalID: 646475751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_10
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 328
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1eca38d04b24a84ea875b47b9470960
+      internalID: -1894023951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_11
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 328
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba11d92d55729e45bb60dcb1fa2bd32
+      internalID: 2126363486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_12
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 328
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8cdfd560bb1fba4b971261ad822394b
+      internalID: -709698741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_13
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 328
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8e7e85308d5f940ae97f5ad5aa69f6
+      internalID: 708455349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_14
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 328
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c34e4f0d7cf6c148986cf5cdd736207
+      internalID: 1825799065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_15
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 328
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba0b78bb94bf4fc46bfa2e503bdd9df3
+      internalID: -923776245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_16
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 328
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0558a220e80973d42857f2a16ff9e553
+      internalID: -571538366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_17
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 328
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bfca431147b5ab4c97976af58075c1b
+      internalID: 1688660096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 284
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de101a0709e151e4ba7b7e74506e0389
+      internalID: -1403014253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_19
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 284
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09fc68426f7d6b44f97af5eb1815f297
+      internalID: -745744580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_20
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 284
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc13b4776ef573d42bfe4f3dfa858576
+      internalID: -1624384300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_21
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 284
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d8f303e9fbb984439fedd580bdebf0a
+      internalID: -1444506574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_22
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 284
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d7096f62d9ef214b817a455b9f2a87c
+      internalID: -226617296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_23
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 284
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eac3111c92a5c449a42fe34fac2c6d1
+      internalID: -1766083707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_24
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 284
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd14b2e0de7a4064f9dffb173b7d13d3
+      internalID: -1358965150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_25
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 284
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0085b538e0719524ab72bfb687aebe64
+      internalID: 1827590116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d5813edc5e13646b5b185a0e5b87ae
+      internalID: -695913829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_27
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 240
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc3cbd2bb083ab4d9414028b7b8e0a3
+      internalID: 1909032926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_28
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 240
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d203c89f08f2a14dbd91e4258d5d3e3
+      internalID: 651641658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_29
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 240
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b900bcd025de8cb4bb426e21ba91eb2a
+      internalID: 1558736577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_30
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 240
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca1c9100f2d0f9843a030961cd034004
+      internalID: 1282519960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_31
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 240
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f714d77756d64ff498231a2b56831a0f
+      internalID: -1598633522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_32
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 240
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8083fc4f331a9c64cbfb2ee208cb4e19
+      internalID: 599082311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_33
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 240
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c905c6b17b6a845a0574f5a90be038
+      internalID: -1863339904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_34
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 240
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b12ec58aa3f231b45ae3ef516612981c
+      internalID: -1537492782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_35
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 196
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 717880c2d2de5e84e94fc3cff4ce8cf9
+      internalID: -935138721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_36
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 196
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4564513e83ba6344b625d20d90a0989
+      internalID: -1227843371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_37
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 196
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3023f443babf5a440bd599cc88b440db
+      internalID: 1620033972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_38
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 196
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2cdb3f6eee5d324aa410051671ab78a
+      internalID: 1000875089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_39
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 196
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a12ea6f5a6307841bd4b01e2571be18
+      internalID: 250656979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_40
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 196
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a7e8d1ea17f8b041808906d0c76a30c
+      internalID: -1858590389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_41
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 152
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14fee055fd22d9b48bf5db408a4bc6b9
+      internalID: -151358846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_42
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 152
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c80da22d6a61294ab248dfb58415183
+      internalID: 779529206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_43
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 152
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edbc104c1b090a7479e356d1d3aa46f8
+      internalID: 213614545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_44
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 152
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d271c0b6160310d4c816c52aeebea477
+      internalID: -263123750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_45
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 152
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 348d00e995c238040823816a91421c86
+      internalID: 1659148791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_46
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 152
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe651e50ad7468649b5ab929cb770584
+      internalID: -638032432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_47
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 152
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8653782e716a432429cd3b031593a50b
+      internalID: -1382653156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_48
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 152
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f0e38f23edcbca4fb04a0768855163d
+      internalID: -317900772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_49
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 152
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a590d4cdc71d9442b8f7be15e716c1a
+      internalID: -1719666318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 108
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 545f3b0f901181945893d5b6dc1236fe
+      internalID: -9082300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_51
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 108
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3397517a019139b4ea205ea50411dc63
+      internalID: 1494319921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_52
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 108
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3157842a4ada8bf438e71d60c0572df9
+      internalID: -264752600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_53
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 108
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e65d6e724d54a4a8fde22cba331f8c
+      internalID: -736918298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_54
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 108
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4afa41ad7f96aa44a20b7baa8dbdc9c
+      internalID: -1347220772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_55
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 108
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d79d8763ef6b2f44ba51936e062fcf1
+      internalID: -1175537439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_56
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 108
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c9a4e8b266c9764685f72c668568614
+      internalID: -1940710670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_57
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 108
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca6cfc3659b7634593659993cc2c5fc
+      internalID: 716170379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_58
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 108
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5379c23ca75f6f2458e6ec1ccafbf3b6
+      internalID: -1347912466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_59
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 64
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e79130b8b1273e49856ef5dde81f0bb
+      internalID: 1642928621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_60
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 64
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc5f0577aa4177147887ebe7004b279c
+      internalID: 1189235306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_61
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 64
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6bdd3f7628cfc046863d020ee37c1f9
+      internalID: 1393677813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_62
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 64
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb47b0cb09f61245bb8ca881efb54aa
+      internalID: 299087345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_63
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 64
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91088926e88a15045ab689de58dac619
+      internalID: 616536679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_64
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 64
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af45405cfc3f2a4b839a02aa9048bf6
+      internalID: 375930192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_65
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 64
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f9559f3dba2ddb4a817d6b28713da52
+      internalID: 363468124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_66
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 64
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a471bdda042e1148b9770f5cf613d37
+      internalID: 441151700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_67
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 20
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f57f1c7c1669ff448348a6c6d9b9a6e
+      internalID: 1602003865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_68
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 20
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e8efdaff359a67489a8c434b0e0224b
+      internalID: -737126460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_69
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 20
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b5971e0622f7bd4fa8c49b9dac17b74
+      internalID: 184686173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_70
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 20
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7961546194c43446916bf160e87ce21
+      internalID: -1539467232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud_tilemap_100_71
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 20
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ec77e92761a5443a99b61d8276553f
+      internalID: 1777637338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Cloud_tilemap_100_0: 52394784
+      Cloud_tilemap_100_1: 417671739
+      Cloud_tilemap_100_10: -1894023951
+      Cloud_tilemap_100_11: 2126363486
+      Cloud_tilemap_100_12: -709698741
+      Cloud_tilemap_100_13: 708455349
+      Cloud_tilemap_100_14: 1825799065
+      Cloud_tilemap_100_15: -923776245
+      Cloud_tilemap_100_16: -571538366
+      Cloud_tilemap_100_17: 1688660096
+      Cloud_tilemap_100_18: -1403014253
+      Cloud_tilemap_100_19: -745744580
+      Cloud_tilemap_100_2: 1734649927
+      Cloud_tilemap_100_20: -1624384300
+      Cloud_tilemap_100_21: -1444506574
+      Cloud_tilemap_100_22: -226617296
+      Cloud_tilemap_100_23: -1766083707
+      Cloud_tilemap_100_24: -1358965150
+      Cloud_tilemap_100_25: 1827590116
+      Cloud_tilemap_100_26: -695913829
+      Cloud_tilemap_100_27: 1909032926
+      Cloud_tilemap_100_28: 651641658
+      Cloud_tilemap_100_29: 1558736577
+      Cloud_tilemap_100_3: 1935196008
+      Cloud_tilemap_100_30: 1282519960
+      Cloud_tilemap_100_31: -1598633522
+      Cloud_tilemap_100_32: 599082311
+      Cloud_tilemap_100_33: -1863339904
+      Cloud_tilemap_100_34: -1537492782
+      Cloud_tilemap_100_35: -935138721
+      Cloud_tilemap_100_36: -1227843371
+      Cloud_tilemap_100_37: 1620033972
+      Cloud_tilemap_100_38: 1000875089
+      Cloud_tilemap_100_39: 250656979
+      Cloud_tilemap_100_4: 867334661
+      Cloud_tilemap_100_40: -1858590389
+      Cloud_tilemap_100_41: -151358846
+      Cloud_tilemap_100_42: 779529206
+      Cloud_tilemap_100_43: 213614545
+      Cloud_tilemap_100_44: -263123750
+      Cloud_tilemap_100_45: 1659148791
+      Cloud_tilemap_100_46: -638032432
+      Cloud_tilemap_100_47: -1382653156
+      Cloud_tilemap_100_48: -317900772
+      Cloud_tilemap_100_49: -1719666318
+      Cloud_tilemap_100_5: 21871478
+      Cloud_tilemap_100_50: -9082300
+      Cloud_tilemap_100_51: 1494319921
+      Cloud_tilemap_100_52: -264752600
+      Cloud_tilemap_100_53: -736918298
+      Cloud_tilemap_100_54: -1347220772
+      Cloud_tilemap_100_55: -1175537439
+      Cloud_tilemap_100_56: -1940710670
+      Cloud_tilemap_100_57: 716170379
+      Cloud_tilemap_100_58: -1347912466
+      Cloud_tilemap_100_59: 1642928621
+      Cloud_tilemap_100_6: -599817339
+      Cloud_tilemap_100_60: 1189235306
+      Cloud_tilemap_100_61: 1393677813
+      Cloud_tilemap_100_62: 299087345
+      Cloud_tilemap_100_63: 616536679
+      Cloud_tilemap_100_64: 375930192
+      Cloud_tilemap_100_65: 363468124
+      Cloud_tilemap_100_66: 441151700
+      Cloud_tilemap_100_67: 1602003865
+      Cloud_tilemap_100_68: -737126460
+      Cloud_tilemap_100_69: 184686173
+      Cloud_tilemap_100_7: 1440234268
+      Cloud_tilemap_100_70: -1539467232
+      Cloud_tilemap_100_71: 1777637338
+      Cloud_tilemap_100_8: 1525128399
+      Cloud_tilemap_100_9: 646475751
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
