@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Master Scenes Folder/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Squash's Organizational Folder/Scenes/MainMenu.unity
+    guid: 5ec143e02e283e849a27dcb571a1f163
   m_configObjects: {}

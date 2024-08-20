@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f79b4d4ebd45d13429c4b605d85e0a4c, type: 3}
+  m_Name: Level 4 Theme
+  m_EditorClassIdentifier: 
+  soundType: 5
+  clips:
+  - {fileID: 8300000, guid: c879273b2de55f545b3a87d92a6f9026, type: 3}
+  pitch: 1
+  volume: 0.5
+  loop: 1

@@ -26,6 +26,14 @@ namespace Game.SoundManagement
                 soundDictionary.Add(sound.soundType,sound);
             }
         }
+
+        private void Start() 
+        {
+            if(startingMusic != SoundType.None)
+            {
+                PlayMusic(SoundType.MainMenuTheme);
+            }    
+        }
     
     
         public void PlayMusic(SoundType soundType)
@@ -88,7 +96,7 @@ namespace Game.SoundManagement
         {
             if(soundDictionary.TryGetValue(soundType, out Sound sound))
             {
-                AudioSource.PlayClipAtPoint(sound.clip, position, sound.volume);
+                AudioSource.PlayClipAtPoint(sound.clips[Random.Range(0, sound.clips.Length)], position, sound.volume);
             }
             else
             {
@@ -100,13 +108,13 @@ namespace Game.SoundManagement
         {
             if(soundDictionary.TryGetValue(soundType,out Sound sound))
             {
-                source.clip = sound.clip;
+                source.clip = sound.clips[Random.Range(0, sound.clips.Length)];
                 source.pitch = sound.pitch;
                 source.loop = sound.loop;
                 source.volume = sound.volume;
                 if(oneShot)
                 {
-                    source.PlayOneShot(sound.clip);
+                    source.PlayOneShot(source.clip);
                 }
                 else
                 {
