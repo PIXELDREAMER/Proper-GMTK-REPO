@@ -24,7 +24,11 @@ namespace Game.Core
     
             while(!asyncLoad.isDone)
             {
-                loadPercent.fillAmount = asyncLoad.progress;
+                if(loadPercent != null)
+                {
+                    loadPercent.fillAmount = asyncLoad.progress;
+                }
+                
                 yield return null;
             }
     
