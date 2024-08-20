@@ -1345,7 +1345,7 @@ MonoBehaviour:
   NameText: {fileID: 757722321266325820}
   DialogueText: {fileID: 757722320311063330}
   animator: {fileID: 757722321770625380}
-  Timer: 0
+  Timer: 5
 --- !u!114 &757722322025698158
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1359,7 +1359,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    NameofNPC: Dr. Dorethy
+    NameofNPC: 
     sentences:
     - First Test, Movement
     - Move INTO THE PURPLE BOX
