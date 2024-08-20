@@ -10,12 +10,12 @@ public class MonoBehaviourSingleton<T> : MonoBehaviour where T : Component
         {
             if (_instance == null)
             {
-                //Debug.Log(typeof(T) + " Instance is null, trying to find a object of the type " + typeof(T));
+                //Debug.LogWarning(typeof(T) + " Instance is null, trying to find a object of the type " + typeof(T));
                 _instance = FindObjectOfType<T>();
 
                 if (_instance == null)
                 {
-                    //Debug.Log(typeof(T) + " Instance is null, trying to create a new object to replace it");
+                    Debug.LogWarning(typeof(T) + " Instance is null, trying to create a new object to replace it");
 
                     GameObject newObj = new GameObject("Auto-Generated " + typeof(T));
                     _instance = newObj.AddComponent<T>();
