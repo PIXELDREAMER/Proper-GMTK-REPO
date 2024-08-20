@@ -9,7 +9,8 @@ namespace Game.SoundManagement
         Level2Theme,
         Level3Theme,
         Level4Theme,
-        ButtonClick
+        ButtonClick,
+        Collision
     }
 
 }
