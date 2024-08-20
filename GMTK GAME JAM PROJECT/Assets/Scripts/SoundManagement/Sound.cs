@@ -7,7 +7,7 @@ namespace Game.SoundManagement
     public class Sound : ScriptableObject
     {
         public SoundType soundType;
-        public AudioClip clip;
+        public AudioClip[] clips;
         
         [Range(-3f, 3f)]
         public float pitch = 1;

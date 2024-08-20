@@ -5,10 +5,11 @@ namespace Game.SoundManagement
     {
         None,
         MainMenuTheme,
-        LevelTheme,
-        BulletShootSound,
-        ButtonClick,
-        Explosion
+        Level1Theme,
+        Level2Theme,
+        Level3Theme,
+        Level4Theme,
+        ButtonClick
     }
 
 }
