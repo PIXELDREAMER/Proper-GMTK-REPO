@@ -27,8 +27,8 @@ namespace Game.Core
         
         void LateUpdate()
         {
-            Vector3 deltaMovement = cameraTransform.position - transform.position;
-            transform.position += new Vector3(deltaMovement.x * effectMultiplier.x, deltaMovement.y * effectMultiplier.y);
+            Vector3 deltaMovement = cameraTransform.position - lastCameraPosition;
+            transform.Translate(new Vector3(deltaMovement.x * effectMultiplier.x, deltaMovement.y * effectMultiplier.y));
             lastCameraPosition = cameraTransform.position;
 
             if(infiniteHorizontal)
@@ -36,7 +36,7 @@ namespace Game.Core
                 if(Mathf.Abs(cameraTransform.position.x - transform.position.x) >= textureUnitSizeX * transform.lossyScale.x)
                 {
                     float offsetPositionX = (cameraTransform.position.x - transform.position.x) % (textureUnitSizeX * transform.lossyScale.x);
-                    transform.position = new Vector3(cameraTransform.position.x + offsetPositionX, transform.position.y);
+                    transform.position = new Vector3(cameraTransform.position.x + offsetPositionX, transform.position.y, transform.position.z);
                 }
             }
             
@@ -45,7 +45,7 @@ namespace Game.Core
                 if(Mathf.Abs(cameraTransform.position.y - transform.position.y) >= textureUnitSizeY * transform.lossyScale.y)
                 {
                     float offsetPositionY = (cameraTransform.position.y - transform.position.y) % (textureUnitSizeY * transform.lossyScale.y);
-                    transform.position = new Vector3(cameraTransform.position.x, transform.position.y + offsetPositionY);
+                    transform.position = new Vector3(cameraTransform.position.x, transform.position.y + offsetPositionY, transform.position.z);
                 }
             }
         }
