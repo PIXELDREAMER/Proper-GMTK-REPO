@@ -1646,6 +1646,11 @@ MonoBehaviour:
   sounds:
   - {fileID: 11400000, guid: 4a7f7f6be31eb7f48ad1ffb7604d90c8, type: 2}
   - {fileID: 11400000, guid: 33c5922b80eb0b34892f8f100866a5c1, type: 2}
+  - {fileID: 11400000, guid: e48f6349e003bdd47b271f6232a949d5, type: 2}
+  - {fileID: 11400000, guid: 0a3958c41dd41d043a3e554f7d2a740c, type: 2}
+  - {fileID: 11400000, guid: 8de042257ff18894ab9e19d2c8f83fae, type: 2}
+  - {fileID: 11400000, guid: 1a604cd39774dd84899f26acf48bf5d1, type: 2}
+  - {fileID: 11400000, guid: 8c9e7d82587ed4a40bfe713fce5b9ba3, type: 2}
   startingMusic: 1
   musicAudioMixer: {fileID: 24100000, guid: 325d74b1bd3d9dd43aa9dbb3f1601aeb, type: 2}
   sfxAudioMixer: {fileID: 24100000, guid: e8273fe270741a943970f53a41f63324, type: 2}
