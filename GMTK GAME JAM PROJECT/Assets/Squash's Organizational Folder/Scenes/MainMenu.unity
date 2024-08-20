@@ -1596,7 +1596,7 @@ MonoBehaviour:
   creditsMenu: {fileID: 476395930}
   loadCanvas: {fileID: 1492246195}
   sceneLoader: {fileID: 311264068}
-  firstLevelName: SampleScene
+  firstLevelName: Level1
 --- !u!4 &259566044
 Transform:
   m_ObjectHideFlags: 0
