@@ -1,0 +1,6 @@
+- Cinemachine
+- Post-Processing
+- Universal Render Pipeline
+- Shader Graph
+
+Without mentioning other packages that should probably be already installed like 2D, mathematics, physics, Unity UI, etc.
