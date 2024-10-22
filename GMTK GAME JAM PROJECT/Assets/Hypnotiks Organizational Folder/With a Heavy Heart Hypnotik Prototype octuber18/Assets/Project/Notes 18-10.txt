@@ -1,0 +1,3 @@
+Hello, I've updated the hierarchy and the folders.
+
+Looking back, using ruletiles to spawn objects isn't the best approach as it's hard to implement and annoying to modify positions, so it's we simply have the objects in the scene, this allows for more customization if we want to modify positions, scales and even the object's components and it's values. For walls we can use ruletiles though.

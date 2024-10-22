@@ -1,0 +1,875 @@
+fileFormatVersion: 2
+guid: 7af924cdd3039ae43bb894336e712ca6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 2048
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: weapon_spritesheet_and_wall_0
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 2142
+        width: 738
+        height: 549
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ec636a5428c4741bba136b4181d58d
+      internalID: -1245686344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_spritesheet_and_wall_1
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 2174
+        width: 676
+        height: 518
+      alignment: 9
+      pivot: {x: 0.41776356, y: 0.6287837}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8cd47d04271da546ac2264fdfcde45f
+      internalID: -1397393835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_spritesheet_and_wall_2
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 2367
+        width: 1028
+        height: 705
+      alignment: 9
+      pivot: {x: 0.39184475, y: 0.38171923}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37fdfba905e0f7342bd003da8e955b81
+      internalID: -319389891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_spritesheet_and_wall_3
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 2367
+        width: 486
+        height: 387
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb6bb4e8678fcfb4191665c42943f70d
+      internalID: 585472962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_spritesheet_and_wall_4
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 1278
+        width: 806
+        height: 424
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a2d57a01468ead408e54c905db98611
+      internalID: 1141632547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_spritesheet_and_wall_5
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 1701
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd09583e23c79fc44a4aa69751230ce1
+      internalID: 1293807023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_spritesheet_and_wall_6
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 1152
+        width: 936
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b9e24a9ba6b274da49173092a21ed4
+      internalID: 1911425959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_spritesheet_and_wall_7
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 1178
+        width: 872
+        height: 587
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53420c46767a6604a9c2026dcbe47d30
+      internalID: -1444242616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_spritesheet_and_wall_8
+      rect:
+        serializedVersion: 2
+        x: 2367
+        y: 1701
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034486c87318a5e4f802c0eca1969ed2
+      internalID: -766370914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_spritesheet_and_wall_9
+      rect:
+        serializedVersion: 2
+        x: 2393
+        y: 1310
+        width: 329
+        height: 420
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984314044f8973d44af2dd942bdb1f5c
+      internalID: -726246233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_spritesheet_and_wall_10
+      rect:
+        serializedVersion: 2
+        x: 2691
+        y: 1701
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee959ed7a4daa54a8555e87150c44f8
+      internalID: 951239293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_spritesheet_and_wall_11
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1242
+        width: 873
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7384b0c32a613445a2110cd663f81ce
+      internalID: -1095357954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_spritesheet_and_wall_12
+      rect:
+        serializedVersion: 2
+        x: 2394
+        y: 1305
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93070dcc023e2364cbe6f7ccaff60ada
+      internalID: 654517987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_spritesheet_and_wall_13
+      rect:
+        serializedVersion: 2
+        x: 2718
+        y: 1305
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad4efaf2674eca4685a03924abbffcb
+      internalID: -871125199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_spritesheet_and_wall_14
+      rect:
+        serializedVersion: 2
+        x: 2466
+        y: 1278
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 491106789a25d12489c2505f57691dae
+      internalID: 1340306664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_spritesheet_and_wall_15
+      rect:
+        serializedVersion: 2
+        x: 2628
+        y: 1278
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e08acad9dfef4e54eba1eedca162ab41
+      internalID: 1614759079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_spritesheet_and_wall_16
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 1026
+        width: 63
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3dbc902458e2d49b719e17a1315a38
+      internalID: 1637187334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_spritesheet_and_wall_17
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 1055
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9aa1cd4fd845e74b9bb3be2b0f748ed
+      internalID: 3200279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_spritesheet_and_wall_18
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 1053
+        width: 189
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05edac3defe9c85489ee1a1cd4210a24
+      internalID: -1323523717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_spritesheet_and_wall_19
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 1055
+        width: 117
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc3bccc067ec2a4bacf69597e057989
+      internalID: 425280747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_spritesheet_and_wall_20
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 1055
+        width: 468
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675dc189ab2d6f747a6f1eb2f438f3d2
+      internalID: -422928264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_spritesheet_and_wall_21
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 0
+        width: 198
+        height: 1062
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9967ec06e7b3879449db13517b4eca27
+      internalID: -890491176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_spritesheet_and_wall_22
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 216
+        width: 579
+        height: 586
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6979e4aaf8b317b419da3b3ad224642b
+      internalID: -1993228943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_spritesheet_and_wall_23
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 774
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f6997d9edccbd40981f212e8de1e7a
+      internalID: -2070923389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_spritesheet_and_wall_24
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 792
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40b9f708ac2138048a5bd24a29b62160
+      internalID: 1624723044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_spritesheet_and_wall_25
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 774
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4ea1bdd2ccfa3c44ab48903d8e19997
+      internalID: -1399438451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_spritesheet_and_wall_26
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 0
+        width: 1028
+        height: 1026
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5469a175b410e247817a62c78733d92
+      internalID: -2095460533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_spritesheet_and_wall_27
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 603
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a42eba4b692d24a9cf5e4d7461df31
+      internalID: 1429457460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_spritesheet_and_wall_28
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 603
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 960c1d97b0adaef48a8a93a0d6e99e2d
+      internalID: -150653061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_spritesheet_and_wall_29
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 189
+        width: 36
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ff90a809f85f454ba326eac5d5ad317
+      internalID: -935533428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_spritesheet_and_wall_30
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 189
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a7a7b9e578d9ac498fb0cb3b53814f5
+      internalID: 458449766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_spritesheet_and_wall_31
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 189
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71c9358dde5451e44bb0f59ff893d611
+      internalID: 842302333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      weapon_spritesheet_and_wall_0: -1245686344
+      weapon_spritesheet_and_wall_1: -1397393835
+      weapon_spritesheet_and_wall_10: 951239293
+      weapon_spritesheet_and_wall_11: -1095357954
+      weapon_spritesheet_and_wall_12: 654517987
+      weapon_spritesheet_and_wall_13: -871125199
+      weapon_spritesheet_and_wall_14: 1340306664
+      weapon_spritesheet_and_wall_15: 1614759079
+      weapon_spritesheet_and_wall_16: 1637187334
+      weapon_spritesheet_and_wall_17: 3200279
+      weapon_spritesheet_and_wall_18: -1323523717
+      weapon_spritesheet_and_wall_19: 425280747
+      weapon_spritesheet_and_wall_2: -319389891
+      weapon_spritesheet_and_wall_20: -422928264
+      weapon_spritesheet_and_wall_21: -890491176
+      weapon_spritesheet_and_wall_22: -1993228943
+      weapon_spritesheet_and_wall_23: -2070923389
+      weapon_spritesheet_and_wall_24: 1624723044
+      weapon_spritesheet_and_wall_25: -1399438451
+      weapon_spritesheet_and_wall_26: -2095460533
+      weapon_spritesheet_and_wall_27: 1429457460
+      weapon_spritesheet_and_wall_28: -150653061
+      weapon_spritesheet_and_wall_29: -935533428
+      weapon_spritesheet_and_wall_3: 585472962
+      weapon_spritesheet_and_wall_30: 458449766
+      weapon_spritesheet_and_wall_31: 842302333
+      weapon_spritesheet_and_wall_4: 1141632547
+      weapon_spritesheet_and_wall_5: 1293807023
+      weapon_spritesheet_and_wall_6: 1911425959
+      weapon_spritesheet_and_wall_7: -1444242616
+      weapon_spritesheet_and_wall_8: -766370914
+      weapon_spritesheet_and_wall_9: -726246233
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

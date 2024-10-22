@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/PIXS ORGANIZATIONAL STRUCTURE/Audio/Music and SFX UPDATED/Imp files/Scenes/MainMenu.unity
+    guid: 5ec143e02e283e849a27dcb571a1f163
+  - enabled: 1
+    path: Assets/Icing'sFolder/Assets/Project/Scenes/Level1.unity
+    guid: 35ce277f7f2c2774e9dc6e418bca523c
+  - enabled: 1
+    path: Assets/Icing'sFolder/Assets/Project/Scenes/Level2.unity
+    guid: f2971da9a6fc30d4ea19be0ad6faab94
+  - enabled: 1
+    path: Assets/Icing'sFolder/Assets/Project/Scenes/Level3.unity
+    guid: c4278909ce04fc044878b9f3829070a9
   m_configObjects: {}
