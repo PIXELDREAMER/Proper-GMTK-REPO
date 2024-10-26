@@ -1,0 +1,128 @@
+using System;
+using UnityEngine;
+
+// I directly copied this from my old game, so it definetely needs rework
+[DefaultExecutionOrder(-5)]
+public class GameManager : MonoBehaviourSingleton<GameManager>
+{
+    public Action OnGameStateChanged;
+    public Action OnPauseStateChanged;
+
+    public GameState State;
+
+    public enum GameState
+    {
+        Starting,
+        Playing,
+        Ended,
+    }
+
+    [Header("Base Scene Reference")]
+    [SerializeField] private Canvas canvas;
+
+    [Header("Pausing")]
+    [SerializeField] private bool isPaused = false;
+    public bool IsPaused => isPaused;
+    private bool targetPauseState;
+
+    [SerializeField] private bool autoPause = false;
+    public float NormalTimeScale { get; private set; } = 1f;
+
+    [SerializeField] private float pauseDelayTime = 0.2f;
+    private float pauseDelayCounter;
+    [SerializeField] private float pauseInputBuffer = 0.1f;
+    private float pauseInputCounter;
+
+    private void Awake()
+    {
+        State = GameState.Starting;
+        OnGameStateChanged?.Invoke();
+
+        pauseDelayCounter = pauseDelayTime;
+
+        if (autoPause)
+        {
+            Application.focusChanged += Application_focusChanged;
+            Application.wantsToQuit += Application_wantsToQuit;
+        }
+    }
+
+    #region PAUSING
+    private void Application_focusChanged(bool isFocused)
+    {
+        if (!isFocused)
+        {
+            PauseImmediately(true);
+        }
+    }
+
+    private bool Application_wantsToQuit()
+    {
+        if (!IsPaused)
+        {
+            PauseImmediately(true);
+
+            // Return false to prevent quitting
+            return false;
+        }
+
+        // If the game is paused, proceed with quitting
+        return true;
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.P) || Input.GetKeyDown(KeyCode.Tab) || Input.GetKeyDown(KeyCode.Escape))
+        {
+            StartPausing(!isPaused);
+        }
+
+        if (pauseInputCounter > 0)
+        {
+            pauseInputCounter -= Time.unscaledDeltaTime;
+        }
+
+        if (pauseDelayCounter < pauseDelayTime)
+        {
+            pauseDelayCounter += Time.unscaledDeltaTime;
+        }
+        // If the can pause delay is over and the input buffer is still relevant
+        else if (pauseInputCounter > 0)
+        {
+            Pause();
+        }
+    }
+
+    public void StartPausing(bool pauseState)
+    {
+        pauseInputCounter = pauseInputBuffer;
+
+        if (targetPauseState != pauseState)
+        {
+            targetPauseState = pauseState;
+        }
+    }
+
+    public void PauseImmediately(bool pauseState)
+    {
+        targetPauseState = pauseState;
+        Pause();
+    }
+
+    private void Pause()
+    {
+        pauseDelayCounter = 0f;
+        pauseInputCounter = 0f;
+
+        isPaused = targetPauseState;
+        Time.timeScale = isPaused ? 0f : NormalTimeScale;
+        OnPauseStateChanged?.Invoke();
+    }
+    #endregion
+
+    // This was for a game that had multiple UI elements that needed to be instantiated so I used a base canvas, we could remove that as it seens not necessary on our game as we are probably not gonna instantiate UI elements
+    public Canvas GetBaseSceneCanvas()
+    {
+        return canvas;
+    }
+}

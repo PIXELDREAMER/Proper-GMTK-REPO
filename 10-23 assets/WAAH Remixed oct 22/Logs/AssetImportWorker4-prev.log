@@ -1,0 +1,701 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.31f1 (3409e2af086f) revision 3410402'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'pt' Physical Memory: 7955 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.31f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/Desktop/Desktop/Meus Projetos/Projetos/With a Heavy Heart Assets
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+58750
+Successfully changed project path to: C:/Users/Desktop/Desktop/Meus Projetos/Projetos/With a Heavy Heart Assets
+C:/Users/Desktop/Desktop/Meus Projetos/Projetos/With a Heavy Heart Assets
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [31112] Host "[IP] 192.168.0.250 [Port] 0 [Flags] 2 [Guid] 917425532 [EditorId] 917425532 [Version] 1048832 [Id] WindowsEditor(7,NitroNotebookV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [31112] Host "[IP] 192.168.0.250 [Port] 0 [Flags] 2 [Guid] 917425532 [EditorId] 917425532 [Version] 1048832 [Id] WindowsEditor(7,NitroNotebookV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 389.86 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.31f1 (3409e2af086f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.31f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Desktop/Desktop/Meus Projetos/Projetos/With a Heavy Heart Assets/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f9d)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   30.0.15.1274
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.31f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.31f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.31f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56072
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.31f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.31f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.402383 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 98.84 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.731 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6732ms)
+		BeginReloadAssembly (4583ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1329ms)
+			LoadAssemblies (4587ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (960ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (293ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (75ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (99ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (69ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.438330 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 115.64 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.081 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2082ms)
+		BeginReloadAssembly (156ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1804ms)
+			LoadAssemblies (213ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (296ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (1228ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (116ms)
+				BeforeProcessingInitializeOnLoad (114ms)
+				ProcessInitializeOnLoadAttributes (879ms)
+				ProcessInitializeOnLoadMethodAttributes (81ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 1.73 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5672 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 66 unused Assets / (2.0 MB). Loaded Objects now: 6118.
+Memory consumption went from 236.3 MB to 234.3 MB.
+Total: 11.720400 ms (FindLiveObjects: 1.196800 ms CreateObjectMapping: 1.136300 ms MarkObjects: 8.017900 ms  DeleteObjects: 1.364300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: f67f22312cbe972f2da930a377ed3d15 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 630800.757792 seconds.
+  path: Assets/Project/Art/Fonts/Created Fonts/GlitchAndFizzleController.cs
+  artifactKey: Guid(cf73bee8596fd5542be2a70cce2ed53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/Art/Fonts/Created Fonts/GlitchAndFizzleController.cs using Guid(cf73bee8596fd5542be2a70cce2ed53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75ddda7aaf60022846e212282433c83c') in 0.065511 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002071 seconds.
+  path: Assets/Project/Art/Fonts/Created Fonts
+  artifactKey: Guid(04fe705cb5641c340acad377bfa13ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/Art/Fonts/Created Fonts using Guid(04fe705cb5641c340acad377bfa13ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fff417f838dd6ee9b07fc368e3c477a') in 0.006542 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.011973 seconds.
+  path: Assets/Project/Sound and Music/AudioMixers
+  artifactKey: Guid(2b91817f8c5557c47bc3248c5f7865bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/Sound and Music/AudioMixers using Guid(2b91817f8c5557c47bc3248c5f7865bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f4359cf8ff4cb3d6966b87ecb72e618') in 0.006399 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.023545 seconds.
+  path: Assets/Project/Art/Fonts/Created Fonts/GlitchEffect.cs
+  artifactKey: Guid(1a9e0b7466456a6449ad7120f270ff4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/Art/Fonts/Created Fonts/GlitchEffect.cs using Guid(1a9e0b7466456a6449ad7120f270ff4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbc2bfb081f6ebc856bb8751902b4454') in 0.005800 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.030378 seconds.
+  path: Assets/Project/Art/Fonts/Downloaded Fonts/hacked-font/misc/readme.txt
+  artifactKey: Guid(c1dbd910304f82a4ea0ec531329222ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/Art/Fonts/Downloaded Fonts/hacked-font/misc/readme.txt using Guid(c1dbd910304f82a4ea0ec531329222ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cea88460020ffd1344c2871d67e55a22') in 0.029087 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.054011 seconds.
+  path: Assets/Project/Art/Fonts/Downloaded Fonts/hacked-font
+  artifactKey: Guid(80bf8254f70638d4abae2b23cd6b2041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/Art/Fonts/Downloaded Fonts/hacked-font using Guid(80bf8254f70638d4abae2b23cd6b2041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb03bd80aa200ef4b1db939e8a4244b0') in 0.006576 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.030858 seconds.
+  path: Assets/Project/ScriptableObjects/Level 3 Theme.asset
+  artifactKey: Guid(1a604cd39774dd84899f26acf48bf5d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/ScriptableObjects/Level 3 Theme.asset using Guid(1a604cd39774dd84899f26acf48bf5d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c766c0f47c5b31257553f24779383286') in 0.009881 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.035967 seconds.
+  path: Assets/Project/Scripts/Imp Scripts/PauseController.cs
+  artifactKey: Guid(f60b402b717d21d45aebb9b03db88c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/Scripts/Imp Scripts/PauseController.cs using Guid(f60b402b717d21d45aebb9b03db88c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd55eb07b1739ad86d73b8144d56aa7cc') in 0.006677 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003696 seconds.
+  path: Assets/Project/Art/Fonts/Created Fonts/RandomCharacterEffect.cs
+  artifactKey: Guid(e7ea6c97b6cb9c348bcfadc602ae6074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/Art/Fonts/Created Fonts/RandomCharacterEffect.cs using Guid(e7ea6c97b6cb9c348bcfadc602ae6074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51e8b44e7f30ac982423491d5ec5a96b') in 0.008938 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.029213 seconds.
+  path: Assets/Project/Scripts/Imp Scripts/SquashStretchButton.cs
+  artifactKey: Guid(7c81171ff92cce74cb551d0c07bc4ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/Scripts/Imp Scripts/SquashStretchButton.cs using Guid(7c81171ff92cce74cb551d0c07bc4ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe08ae989fba0a78eac89db7052c87c2') in 0.006080 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.010128 seconds.
+  path: Assets/Project/Art/Fonts/Sedap Kali/Sedap Kali.ttf
+  artifactKey: Guid(4645ded85ae9b904d86b6d4f0cbe25ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/Art/Fonts/Sedap Kali/Sedap Kali.ttf using Guid(4645ded85ae9b904d86b6d4f0cbe25ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6ca7731e2ab447d603587415e316fd0') in 0.277648 seconds 
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.002078 seconds.
+  path: Assets/Project/Scripts/Imp Scripts/SceneLoader.cs
+  artifactKey: Guid(e3a433bbdff83864c98b0184e0535c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/Scripts/Imp Scripts/SceneLoader.cs using Guid(e3a433bbdff83864c98b0184e0535c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e653b88934144a83cf5574c0b51741b4') in 0.005864 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.039215 seconds.
+  path: Assets/Project/ScriptableObjects/Main Menu Sound.asset
+  artifactKey: Guid(4a7f7f6be31eb7f48ad1ffb7604d90c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/ScriptableObjects/Main Menu Sound.asset using Guid(4a7f7f6be31eb7f48ad1ffb7604d90c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e9b6a08630e27320d0e03b44fc08906') in 0.009552 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.010719 seconds.
+  path: Assets/Project/Art/Fonts/Downloaded Fonts/alien-ravager-font/AlienRavager-0WYod.ttf
+  artifactKey: Guid(d39e871c79e855945b22244d6cd7b663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/Art/Fonts/Downloaded Fonts/alien-ravager-font/AlienRavager-0WYod.ttf using Guid(d39e871c79e855945b22244d6cd7b663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7adef05245d90121f965176932fdba8') in 0.018014 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.003505 seconds.
+  path: Assets/Project/Art/Fonts/Created Fonts/Hacked-KerX SDF 1.asset
+  artifactKey: Guid(610d0692f0de9fd4ca83f6c1b36e13e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/Art/Fonts/Created Fonts/Hacked-KerX SDF 1.asset using Guid(610d0692f0de9fd4ca83f6c1b36e13e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '662035ac0204087fb0148ee48e6c7f52') in 0.033334 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.013159 seconds.
+  path: Assets/Project/Art/Fonts/Downloaded Fonts/uncracked-font/misc/Uncracked Free Trial-6d44.woff
+  artifactKey: Guid(04485b367db01994ca505d873ec520a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/Art/Fonts/Downloaded Fonts/uncracked-font/misc/Uncracked Free Trial-6d44.woff using Guid(04485b367db01994ca505d873ec520a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3abf3211716e4fba61b308f0694e80c1') in 0.009600 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.008135 seconds.
+  path: Assets/Project/Scripts/Imp Scripts/Hypnotiks Pause Manager Script.txt
+  artifactKey: Guid(b17779942975bdd44851d9bd034945d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/Scripts/Imp Scripts/Hypnotiks Pause Manager Script.txt using Guid(b17779942975bdd44851d9bd034945d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6504bc4074e460259c04ab6281cac540') in 0.007534 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002881 seconds.
+  path: Assets/Project/Scripts/Imp Scripts/SquashStretchEffect.cs
+  artifactKey: Guid(b99c95397548433408b03045d551eb7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/Scripts/Imp Scripts/SquashStretchEffect.cs using Guid(b99c95397548433408b03045d551eb7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94448e94f3a49926884104c7ffee2e13') in 0.007036 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003282 seconds.
+  path: Assets/Project/Art/Fonts/Downloaded Fonts/uncracked-font/info.txt
+  artifactKey: Guid(2f2e919e65fc52d4ba6551bfe04a106b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/Art/Fonts/Downloaded Fonts/uncracked-font/info.txt using Guid(2f2e919e65fc52d4ba6551bfe04a106b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0829651f12de327eeeb9c966e03ea9aa') in 0.015491 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.026872 seconds.
+  path: Assets/Project/Art/Fonts/Downloaded Fonts/uncracked-font/misc/ReadMe-0b36.pdf
+  artifactKey: Guid(b9ffc19de5d13e9479130b5d987530b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/Art/Fonts/Downloaded Fonts/uncracked-font/misc/ReadMe-0b36.pdf using Guid(b9ffc19de5d13e9479130b5d987530b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11d58c35c4515ae606c38401155ba44e') in 0.010607 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.069286 seconds.
+  path: Assets/Project/Art/Fonts/Created Fonts/GlitchTextEffect.cs
+  artifactKey: Guid(b26dcd7c85f848c489d4c2e5a67704cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/Art/Fonts/Created Fonts/GlitchTextEffect.cs using Guid(b26dcd7c85f848c489d4c2e5a67704cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2f9e75ddc83d0b3065680243123abfe') in 0.006663 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007211 seconds.
+  path: Assets/Project/Scripts/Imp Scripts/CameraZoomTrigger.cs
+  artifactKey: Guid(2bc3a53dfa7a88f40ba6ad1011e8b6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/Scripts/Imp Scripts/CameraZoomTrigger.cs using Guid(2bc3a53dfa7a88f40ba6ad1011e8b6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb9c04db8c842260b29f2b5c55ce652c') in 0.006278 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.032815 seconds.
+  path: Assets/Project/Art/Fonts/Downloaded Fonts/alien-ravager-font/AlienRavagerItalic-4B214.ttf
+  artifactKey: Guid(635f17cb3fe7daa47a7d9de19230ca0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/Art/Fonts/Downloaded Fonts/alien-ravager-font/AlienRavagerItalic-4B214.ttf using Guid(635f17cb3fe7daa47a7d9de19230ca0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bccdf6a5da41ba163676f5fbfab78f88') in 0.017416 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.009392 seconds.
+  path: Assets/Project/Art/Fonts/Downloaded Fonts/uncracked-font
+  artifactKey: Guid(3000695299608a94b9b05c4f192b87c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/Art/Fonts/Downloaded Fonts/uncracked-font using Guid(3000695299608a94b9b05c4f192b87c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e36e1945d28a748452ae1f730b4e298c') in 0.006850 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.026684 seconds.
+  path: Assets/Project/Scripts/Imp Scripts/QuestManagerTest.cs
+  artifactKey: Guid(4574786290f08c94991834e272618bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/Scripts/Imp Scripts/QuestManagerTest.cs using Guid(4574786290f08c94991834e272618bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53ebf00c23cd4f56114c9896dcffe788') in 0.014730 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.012151 seconds.
+  path: Assets/Project/Art/Fonts/Created Fonts/Uncracked.asset
+  artifactKey: Guid(d54db390bcf76584aa7b7ecb004a0640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/Art/Fonts/Created Fonts/Uncracked.asset using Guid(d54db390bcf76584aa7b7ecb004a0640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dda260030f396b48ab5fff1a0e67398') in 0.022167 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.089718 seconds.
+  path: Assets/Project/Scripts/Player/PlayerController.cs
+  artifactKey: Guid(286fa6081c42d0b4094cf9f61735ae46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/Scripts/Player/PlayerController.cs using Guid(286fa6081c42d0b4094cf9f61735ae46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9db777f32e7a7dbda5af4d9ce14852f8') in 0.005704 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006166 seconds.
+  path: Assets/Project/Art/Fonts/Sedap Kali
+  artifactKey: Guid(cce87f344e7ee8e4aab2ffa9a76e8e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/Art/Fonts/Sedap Kali using Guid(cce87f344e7ee8e4aab2ffa9a76e8e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91322a00dfd51b0e0b8e12bb943e759e') in 0.002315 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.011807 seconds.
+  path: Assets/Project/Art/Fonts/Downloaded Fonts/uncracked-font/misc
+  artifactKey: Guid(ff1a55082fc30c648a6a68577471b9bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/Art/Fonts/Downloaded Fonts/uncracked-font/misc using Guid(ff1a55082fc30c648a6a68577471b9bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35529234f81fb7c3ffbf373818e36887') in 0.006422 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.017759 seconds.
+  path: Assets/Project/Art/Fonts/Sedap Kali/Read Me.pdf
+  artifactKey: Guid(e34f5e75a0ffacc49be69fd9c9f2c67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/Art/Fonts/Sedap Kali/Read Me.pdf using Guid(e34f5e75a0ffacc49be69fd9c9f2c67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d9ccbbb0221a62a1f90669a67b1e54') in 0.007910 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.015036 seconds.
+  path: Assets/Project/Scripts/Sound Management
+  artifactKey: Guid(578dd4f88611f094f8c451ff2f744dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/Scripts/Sound Management using Guid(578dd4f88611f094f8c451ff2f744dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5ea8dccc55e38eb41c54c7465f1a231') in 0.007356 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.015866 seconds.
+  path: Assets/Project/ScriptableObjects/Button Click Sound.asset
+  artifactKey: Guid(33c5922b80eb0b34892f8f100866a5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/ScriptableObjects/Button Click Sound.asset using Guid(33c5922b80eb0b34892f8f100866a5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd5dab17ce8bd7eabb8f1e0e339d16a1') in 0.008627 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.119850 seconds.
+  path: Assets/Project/Scripts/Utillities/EditorSceneRestarter.cs
+  artifactKey: Guid(bf6f3a4a282a031488778b081a453cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/Scripts/Utillities/EditorSceneRestarter.cs using Guid(bf6f3a4a282a031488778b081a453cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8ab385954068206122ba88148290dbb') in 0.007210 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003014 seconds.
+  path: Assets/Project/Art/Fonts/Created Fonts/Hacked-KerX SDF.asset
+  artifactKey: Guid(625029a85fef4104dadba45fd47b9475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/Art/Fonts/Created Fonts/Hacked-KerX SDF.asset using Guid(625029a85fef4104dadba45fd47b9475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a1e44d8056031a23cc5feccda6994aa') in 0.021545 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.003407 seconds.
+  path: Assets/Project/Art/Fonts/Downloaded Fonts/uncracked-font/misc/Uncracked Free Trial-6da2.woff2
+  artifactKey: Guid(780726bae4ab5f841afbdcc8e7caed61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/Art/Fonts/Downloaded Fonts/uncracked-font/misc/Uncracked Free Trial-6da2.woff2 using Guid(780726bae4ab5f841afbdcc8e7caed61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a62a3ddc1a8c29a2280ed3ebac90ce6f') in 0.009469 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.019996 seconds.
+  path: Assets/Project/Art/Fonts/Downloaded Fonts
+  artifactKey: Guid(b5063059ad7b20749aba4c2dd1685375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/Art/Fonts/Downloaded Fonts using Guid(b5063059ad7b20749aba4c2dd1685375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1efeb6e4e81118e488e7e5f68e113b01') in 0.007764 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.013439 seconds.
+  path: Assets/Project/Art/Fonts/Sedap Kali/Sedap Kali SDF.asset
+  artifactKey: Guid(e103fc69cecf7114db59e33bd295d51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/Art/Fonts/Sedap Kali/Sedap Kali SDF.asset using Guid(e103fc69cecf7114db59e33bd295d51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '642dc2f1cff87d11e80a3d4f447daf34') in 0.021393 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.001880 seconds.
+  path: Assets/Project/Sound and Music/SFX
+  artifactKey: Guid(2f7817807e066674c95a5c045955786c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/Sound and Music/SFX using Guid(2f7817807e066674c95a5c045955786c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b655879b5bbe521eddf821f0e3a50e91') in 0.006625 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.045468 seconds.
+  path: Assets/Project/Art/Fonts/Downloaded Fonts/uncracked-font/UncrackedFreeTrial-X3WjK.otf
+  artifactKey: Guid(73b2f909c6cd99940b3b04974cef00d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/Art/Fonts/Downloaded Fonts/uncracked-font/UncrackedFreeTrial-X3WjK.otf using Guid(73b2f909c6cd99940b3b04974cef00d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2106f7048ff4d3e19f4224dbb2806d4') in 0.022466 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.008724 seconds.
+  path: Assets/Project/Art/Fonts/Sedap Kali/Sedap Kali.jpg
+  artifactKey: Guid(e2be66881e8180749ba9e6aa419ca517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/Art/Fonts/Sedap Kali/Sedap Kali.jpg using Guid(e2be66881e8180749ba9e6aa419ca517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7146b5ee950b28ec7ba249937b9fcfb9') in 0.111742 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.018779 seconds.
+  path: Assets/Project/ScriptableObjects/Level 2 Theme.asset
+  artifactKey: Guid(8de042257ff18894ab9e19d2c8f83fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/ScriptableObjects/Level 2 Theme.asset using Guid(8de042257ff18894ab9e19d2c8f83fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b3d066d937601fb0dc970333d978d71') in 0.008148 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001857 seconds.
+  path: Assets/Project/Sound and Music/Musics
+  artifactKey: Guid(c4e4a9f21c6e8f54484125ae5f277cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/Sound and Music/Musics using Guid(c4e4a9f21c6e8f54484125ae5f277cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a9601811db96299ca1826eda6de14f6') in 0.007164 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.020158 seconds.
+  path: Assets/Project/Scripts/Imp Scripts/CameraZoom.cs
+  artifactKey: Guid(387bdd74e9a9f704f8269fad1f1fab20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/Scripts/Imp Scripts/CameraZoom.cs using Guid(387bdd74e9a9f704f8269fad1f1fab20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2819a5bee2a6e66c1c8ae0e28379c36f') in 0.007884 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.020041 seconds.
+  path: Assets/Project/Scenes/Hypnotiks Main Scene.unity
+  artifactKey: Guid(222cd037c0ae47242b1aceb606f13afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/Scenes/Hypnotiks Main Scene.unity using Guid(222cd037c0ae47242b1aceb606f13afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb907bb488deae1741d036412db3cc67') in 0.007557 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.030161 seconds.
+  path: Assets/Project/Art/Fonts/Created Fonts/FizzleEffect.cs
+  artifactKey: Guid(e22656ebf34484647a58ca9d94ba7f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/Art/Fonts/Created Fonts/FizzleEffect.cs using Guid(e22656ebf34484647a58ca9d94ba7f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48104d06bf27980e1944bb220afe10cf') in 0.007726 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.008905 seconds.
+  path: Assets/Project/Art/Fonts/Downloaded Fonts/alien-ravager-font/misc/license.txt
+  artifactKey: Guid(62395de21fc881c458b497d6aa963c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/Art/Fonts/Downloaded Fonts/alien-ravager-font/misc/license.txt using Guid(62395de21fc881c458b497d6aa963c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bec345a2fab3473c4864be3f9ccd0a1') in 0.007611 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.019502 seconds.
+  path: Assets/Project/Art/Fonts/Created Fonts/ColourShiftEffect.cs
+  artifactKey: Guid(37f13a75ebd957b49b25eaa287baea3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/Art/Fonts/Created Fonts/ColourShiftEffect.cs using Guid(37f13a75ebd957b49b25eaa287baea3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1130505cc0f899e653c2085c9685cc05') in 0.006524 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.010569 seconds.
+  path: Assets/Project/ScriptableObjects/Collision Sound.asset
+  artifactKey: Guid(e48f6349e003bdd47b271f6232a949d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/ScriptableObjects/Collision Sound.asset using Guid(e48f6349e003bdd47b271f6232a949d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cbdb9ff0b219f0ef409cd0aebfc531a') in 0.007403 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.012635 seconds.
+  path: Assets/Project/Art/Fonts/Downloaded Fonts/hacked-font/info.txt
+  artifactKey: Guid(dc1a8970280ada64b961552f48b7b47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/Art/Fonts/Downloaded Fonts/hacked-font/info.txt using Guid(dc1a8970280ada64b961552f48b7b47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85f0b1606e00937c6416dc157b89b164') in 0.002981 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.010393 seconds.
+  path: Assets/Project/Sound and Music
+  artifactKey: Guid(7f362385d5aedf7418ebd4f4a2578144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/Sound and Music using Guid(7f362385d5aedf7418ebd4f4a2578144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e67f38755d273ce9de3873b70292bbd1') in 0.007199 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.038820 seconds.
+  path: Assets/Project/Art/Fonts/Downloaded Fonts/alien-ravager-font/misc
+  artifactKey: Guid(911f9641c14217f4dbfaa02195bd18ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/Art/Fonts/Downloaded Fonts/alien-ravager-font/misc using Guid(911f9641c14217f4dbfaa02195bd18ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5df2b1010c21f622f7473392e3f8c37') in 0.002065 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003564 seconds.
+  path: Assets/Project/Art/Fonts/Sedap Kali/Sedap Kali.otf
+  artifactKey: Guid(fe8874dfb83764949a2eb9533767bfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/Art/Fonts/Sedap Kali/Sedap Kali.otf using Guid(fe8874dfb83764949a2eb9533767bfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f020a68af37a63f69fd4aad6b5cf8682') in 0.018853 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.053315 seconds.
+  path: Assets/Project/ScriptableObjects
+  artifactKey: Guid(3851481e4034d3746acf3443deff015a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/ScriptableObjects using Guid(3851481e4034d3746acf3443deff015a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'debf1d77aa557f18ea048bc86918500b') in 0.007702 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.036740 seconds.
+  path: Assets/Project/ScriptableObjects/Level 4 Theme.asset
+  artifactKey: Guid(8c9e7d82587ed4a40bfe713fce5b9ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/ScriptableObjects/Level 4 Theme.asset using Guid(8c9e7d82587ed4a40bfe713fce5b9ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43295e1db7150d3f0663e9899c974f4f') in 0.007420 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.038262 seconds.
+  path: Assets/Project/Art/Fonts/Downloaded Fonts/hacked-font/misc
+  artifactKey: Guid(1fabcad80132e4a4a9ff9db02e2cb24d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/Art/Fonts/Downloaded Fonts/hacked-font/misc using Guid(1fabcad80132e4a4a9ff9db02e2cb24d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9992e72fd21fed698f6fa4c7febd1ca9') in 0.002160 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.016180 seconds.
+  path: Assets/Project/Scenes/MainMenu.unity
+  artifactKey: Guid(febdbea13048d8c4da5d319c1fd3cb1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/Scenes/MainMenu.unity using Guid(febdbea13048d8c4da5d319c1fd3cb1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e66f478109b4ca9dea1de6c7cf176b98') in 0.006689 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.037652 seconds.
+  path: Assets/Project/ScriptableObjects/Level 1 Theme.asset
+  artifactKey: Guid(0a3958c41dd41d043a3e554f7d2a740c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/ScriptableObjects/Level 1 Theme.asset using Guid(0a3958c41dd41d043a3e554f7d2a740c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2adb147cec24b4e1b4ba75aca43977e') in 0.007412 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.093413 seconds.
+  path: Assets/Project/Scripts/Sound Management/SoundManager.cs
+  artifactKey: Guid(373728bfcbb8c5f4292f5832ecb73ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/Scripts/Sound Management/SoundManager.cs using Guid(373728bfcbb8c5f4292f5832ecb73ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a16faaa3dfd8b57464f011d1dc72f46f') in 0.006175 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.014990 seconds.
+  path: Assets/Project/Art/Fonts/Sedap Kali/More Info.txt
+  artifactKey: Guid(67843c0edcec4574bb00ed98b765523d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/Art/Fonts/Sedap Kali/More Info.txt using Guid(67843c0edcec4574bb00ed98b765523d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f62c1f01783293f80883b59f4755c49') in 0.007233 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.021098 seconds.
+  path: Assets/Project/Art/Fonts/Created Fonts/NoisyTextEffect.cs
+  artifactKey: Guid(909244f10caf11043bf7b8803f6dea1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/Art/Fonts/Created Fonts/NoisyTextEffect.cs using Guid(909244f10caf11043bf7b8803f6dea1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85ef5affcd48cc94d180217e5ef0fc1a') in 0.006138 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.063290 seconds.
+  path: Assets/Project/Art/Fonts/Downloaded Fonts/alien-ravager-font
+  artifactKey: Guid(3199b561515680343b786cfb89c988db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/Art/Fonts/Downloaded Fonts/alien-ravager-font using Guid(3199b561515680343b786cfb89c988db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '998a2fb15d0bc1f6e29acdaa9527e589') in 0.008955 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.031386 seconds.
+  path: Assets/Project/Art/Fonts/Created Fonts/AlienRavager-0WYod SDF.asset
+  artifactKey: Guid(bd6e650a997068d4f9a4f72b09bc1062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/Art/Fonts/Created Fonts/AlienRavager-0WYod SDF.asset using Guid(bd6e650a997068d4f9a4f72b09bc1062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41abeb4e77c74cc20206b63062cbd188') in 0.028311 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.052970 seconds.
+  path: Assets/Project/Art/Fonts/Downloaded Fonts/hacked-font/Hacked-KerX.ttf
+  artifactKey: Guid(ba36ab715c31b7f46ac28818555fda2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/Art/Fonts/Downloaded Fonts/hacked-font/Hacked-KerX.ttf using Guid(ba36ab715c31b7f46ac28818555fda2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4000e2316ba3342459d822c60cfd8203') in 0.018509 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.037235 seconds.
+  path: Assets/Project/Art/Fonts/Created Fonts/TextPulseEffect.cs
+  artifactKey: Guid(309dbd26d00a7c245bc53fbe30c95f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/Art/Fonts/Created Fonts/TextPulseEffect.cs using Guid(309dbd26d00a7c245bc53fbe30c95f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff9274095b34b1bd11080971b773e4d') in 0.008427 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.083221 seconds.
+  path: Assets/Project/Art/Fonts/Downloaded Fonts/alien-ravager-font/info.txt
+  artifactKey: Guid(4f3761c884d3285409ab50e19100b986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/Art/Fonts/Downloaded Fonts/alien-ravager-font/info.txt using Guid(4f3761c884d3285409ab50e19100b986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6473bbcd8b52281ff1df821c64da43c1') in 0.003258 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.019429 seconds.
+  path: Assets/Project/Art/Fonts
+  artifactKey: Guid(dfd5e9331a6ec434db8b0e6bac127ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Project/Art/Fonts using Guid(dfd5e9331a6ec434db8b0e6bac127ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c58a15849c3b0bdd16b922d368a6c18') in 0.006934 seconds 
+Number of asset objects unloaded after import = 0
